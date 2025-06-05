@@ -7,6 +7,8 @@
 }
 
 .signup-screen div {
+    height: 100vh;
+    width: 100vw;
     background-color: #f8f5f966;
     border: 1px solid rgba(128, 128, 128, 0.415);
     display: flex;
@@ -62,6 +64,7 @@
 
 @media screen and (min-width: 576px) {
     .signup-screen div {
+        height: 80vh;
         width: 25vw;
     }
 }
