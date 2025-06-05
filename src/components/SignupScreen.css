@@ -1,0 +1,67 @@
+.signup-screen {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-screen div {
+    background-color: #f8f5f966;
+    border: 1px solid rgba(128, 128, 128, 0.415);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 20px;
+}
+
+.signup-screen div label {
+    color: rgba(66, 18, 199, 0.733);
+    font-weight: 500;
+    position: relative;
+    left: 20px;
+    bottom: -18px;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+.signup-screen div input {
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.signup-screen div input:focus {
+    box-shadow: none;
+    border-color: rgba(66, 18, 199, 0.733);
+}
+
+.signup-screen div p {
+    font-weight: 500;
+}
+
+.signup-screen div input::placeholder {
+    color: #000000;
+}
+
+.radio-text {
+    border: none !important;
+    padding-top: 0px !important;
+    padding-left: 0 !important;
+}
+
+.signup-screen div button {
+    background-color: rgba(66, 18, 199, 0.733);
+    color: #ffffff;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+@media screen and (min-width: 576px) {
+    .signup-screen div {
+        width: 25vw;
+    }
+}

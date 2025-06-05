@@ -1,0 +1,40 @@
+.landing-screen {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-screen div {
+    background-color: #f8f5f966;
+    height: 80vh;
+    border: 1px solid rgba(128, 128, 128, 0.415);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding: 15px;
+}
+
+.landing-screen div p {
+    color: grey;
+}
+
+.landing-screen .button-1 {
+    background-color: rgba(66, 18, 199, 0.733);
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.landing-screen .button-2 {
+    background-color: rgba(138, 111, 211, 0.392);
+    font-weight: 500;
+}
+
+@media screen and (min-width: 576px) {
+    .landing-screen div {
+        width: 25vw;
+    }
+}

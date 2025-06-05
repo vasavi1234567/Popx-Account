@@ -1,0 +1,73 @@
+.login-screen {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-screen div {
+    background-color: #f8f5f966;
+    height: 80vh;
+    border: 1px solid rgba(128, 128, 128, 0.415);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 20px;
+}
+
+.login-screen div p {
+    color: grey;
+}
+
+.login-screen div label {
+    color: rgba(66, 18, 199, 0.733);
+    font-weight: 500;
+    position: relative;
+    left: 20px;
+    bottom: -18px;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+.login-screen div input {
+    padding: 20px;
+    font-size: 15px;
+}
+
+.login-screen div input:focus {
+    box-shadow: none;
+    border-color: rgba(66, 18, 199, 0.733);
+}
+
+.login-screen div .link button {
+    text-decoration: none;
+    width: 42vw;
+}
+
+.login-screen div button {
+    margin-top: 20px;
+    background-color: rgba(128, 128, 128, 0.515);
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+}
+
+@media screen and (min-width: 576px) {
+    .login-screen div {
+        width: 25vw;
+    }
+
+    .login-screen div .link button {
+        width: 19vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .login-screen div .link button {
+        width: 22vw;
+    }
+}
+
